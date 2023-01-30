@@ -162,7 +162,7 @@ std::vector<int> Master;
     //    The nowait keyword tells the compiler that the slave threads don't
     //    have to wait for all other slaves to finish this for loop job
     #pragma omp for nowait
-    for (size_t i = 0; i < 1000000; ++i
+    for (size_t i = 0; i < 1000000; ++i)
     {
         /* Do something */
         ....
